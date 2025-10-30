@@ -1,6 +1,6 @@
-baseURL = 'https://blog.callums-server.co.uk/'
+baseURL = 'https://runsondata.com/'
 languageCode = 'en-GB'
-title = 'Callums Blog'
+title = 'Runs on Data'
 theme = 'm10c'
 
 [caches]
