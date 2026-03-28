@@ -3,6 +3,9 @@ languageCode = 'en-GB'
 title = 'Runs on Data'
 theme = 'paper'
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
