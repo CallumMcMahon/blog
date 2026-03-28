@@ -43,9 +43,11 @@ This is the Claude Code conversation transcript from discovering and responding 
 .t-resp-inner table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 8px 0; }
 .t-resp-inner th, .t-resp-inner td { padding: 6px 10px; border-bottom: 1px solid #e5e7eb; text-align: left; }
 .t-resp-inner thead { background: #f3f4f6; }
+.t-item details { display: flex; flex-direction: column; }
 .t-item details summary { display: block; width: 100%; padding: 8px 16px; margin-top: 4px; background: rgba(0,0,0,0.05); border: 1px solid rgba(0,0,0,0.1); border-radius: 6px; cursor: pointer; font-size: 0.85rem; color: #757575; text-align: center; list-style: none; }
 .t-item details summary::-webkit-details-marker { display: none; }
 .t-item details summary::after { content: 'Show more'; }
+.t-item details[open] > summary { order: 1; }
 .t-item details[open] summary::after { content: 'Show less'; }
 .t-commentary { margin: -8px 0 16px 20px; background: #fefce8; border-left: 3px solid #eab308; border-radius: 0 8px 8px 0; padding: 0.6rem 0.75rem; font-size: 0.8rem; line-height: 1.5; color: #4b5563; font-style: italic; }
 .t-commit { margin: 0.75rem 0; padding: 0.5rem 0.75rem; background: #fff7ed; border-left: 3px solid #f97316; border-radius: 0 6px 6px 0; font-size: 0.8rem; color: #9a3412; }
