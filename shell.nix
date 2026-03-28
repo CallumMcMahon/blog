@@ -4,6 +4,7 @@
       pkgs.git
       pkgs.hugo
       pkgs.just
+      pkgs.gh
     ];
 
   }
