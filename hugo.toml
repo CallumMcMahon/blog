@@ -6,6 +6,11 @@ theme = 'paper'
 [markup.goldmark.renderer]
   unsafe = true
 
+[params]
+  name = "Callum McMahon"
+  bio = "Machine Learning Engineering for fun"
+  avatar = "/avatar.png"
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
