@@ -13,15 +13,21 @@ This is the Claude Code conversation transcript from discovering and responding 
 
 <style>
 .tl-svg { width: 100%; max-width: 700px; height: auto; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
-.t-nav { margin: 1.5rem 0; padding: 1rem; background: #f9fafb; border-radius: 8px; font-size: 0.85rem; line-height: 1.8; }
-.t-nav strong { display: block; margin-bottom: 0.25rem; }
-.t-nav a { text-decoration: none; color: #374151; }
-.t-nav a:hover { color: #111827; text-decoration: underline; }
-.t-nav .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
+.t-layout { display: grid; grid-template-columns: 170px 1fr; gap: 1.25rem; }
+.t-sidebar { position: sticky; top: 1rem; align-self: start; font-size: 0.78rem; line-height: 1.4; max-height: calc(100vh - 2rem); overflow-y: auto; }
+.t-sidebar .t-phase { margin-top: 0.75rem; margin-bottom: 0.25rem; font-weight: 600; font-size: 0.7rem; letter-spacing: 0.04em; text-transform: uppercase; opacity: 0.7; }
+.t-sidebar .t-phase:first-child { margin-top: 0; }
+.t-sidebar a { display: block; padding: 2px 0 2px 14px; text-decoration: none; color: #374151; border-left: 2px solid transparent; }
+.t-sidebar a:hover { color: #111827; border-left-color: #9ca3af; }
+.t-sidebar .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
 .dot-r { background: #dc2626; }
 .dot-b { background: #2563eb; }
 .dot-y { background: #d97706; }
 .dot-g { background: #16a34a; }
+@media (max-width: 768px) {
+  .t-layout { grid-template-columns: 1fr; }
+  .t-sidebar { position: static; max-height: none; padding: 0.75rem; background: #f9fafb; border-radius: 8px; margin-bottom: 1rem; }
+}
 .t-item { position: relative; margin-bottom: 16px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); background: #e3f2fd; border-left: 4px solid #1976d2; }
 .t-item-hl { box-shadow: 0 2px 8px rgba(25,118,210,0.2); border-left-width: 6px; }
 .t-head { display: flex; justify-content: space-between; align-items: center; padding: 8px 16px; background: rgba(0,0,0,0.03); font-size: 0.85rem; border-radius: 12px 12px 0 0; }
@@ -117,16 +123,27 @@ Shout out to [claude-code-transcripts](https://github.com/simonw/claude-code-tra
 
 All times are UTC. Redactions marked as <span class="redacted">[...]</span> protect internal infrastructure details.
 
-<div class="t-nav">
-<strong>Jump to:</strong>
-<span class="dot dot-b"></span><a href="#t-1">#1 11:13 Investigation begins</a> ·
-<span class="dot dot-b"></span><a href="#t-7">#7 11:40 Malware identified</a> ·
-<span class="dot dot-y"></span><a href="#t-13">#13 11:58 Confirmed on PyPI</a> ·
-<span class="dot dot-g"></span><a href="#t-email">12:00 Emails sent</a> ·
-<span class="dot dot-g"></span><a href="#t-14">#14 12:01 Blog published</a>
-</div>
-
 ## Transcript
+
+<div class="t-layout">
+<nav class="t-sidebar">
+<div class="t-phase" style="color:#991b1b">Attack</div>
+<a href="#t-svg"><span class="dot dot-r"></span>10:52 Uploaded</a>
+<a href="#t-svg"><span class="dot dot-r"></span>10:58 Pulled</a>
+<a href="#t-svg"><span class="dot dot-r"></span>11:07 Persistence</a>
+<a href="#t-svg"><span class="dot dot-r"></span>11:09 Reboot</a>
+<div class="t-phase" style="color:#1e40af">Investigation</div>
+<a href="#t-1"><span class="dot dot-b"></span>11:13 Begins</a>
+<a href="#t-7"><span class="dot dot-b"></span>11:40 Malware ID'd</a>
+<div class="t-phase" style="color:#92400e">Confirmation</div>
+<a href="#t-13"><span class="dot dot-y"></span>11:58 Live on PyPI</a>
+<div class="t-phase" style="color:#166534">Response</div>
+<a href="#t-email"><span class="dot dot-g"></span>11:58 PyPI email</a>
+<a href="#t-email"><span class="dot dot-g"></span>12:00 LiteLLM email</a>
+<a href="#t-14"><span class="dot dot-g"></span>12:02 Published</a>
+<a href="#t-15"><span class="dot dot-g"></span>12:04 Shared</a>
+</nav>
+<div class="t-content">
 
 <div class="t-item" id="t-1">
 <div class="t-head"><span class="t-num">#1</span><time>11:13</time><span class="t-stats">37 bash</span></div>
@@ -528,3 +545,6 @@ import tempfile</code></pre>
 <div class="t-commit"><code>58fbfcc</code> blog: clarify reporting attribution</div>
 
 <div class="t-commit"><code>8b235ec</code> blog: resolve merge conflict, keep improved version</div>
+
+</div>
+</div>
