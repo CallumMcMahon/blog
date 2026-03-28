@@ -29,3 +29,5 @@ Possibly some Fediverse angle down the line too, allowing events to automaticall
 To start with, I'll be focusing on UK events. 
 But once the techniques have been ironed out, I don't see why I couldn't expand further afield,
 other than possible language barriers slowing down debugging problems with the system.
+
+I'll update this page once I have something publicly facing to show off.
