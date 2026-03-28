@@ -2,9 +2,10 @@
 date = '2026-03-24T12:00:00Z'
 draft = false
 title = 'Supply Chain Attack in litellm 1.82.8 on PyPI'
+subtitle = 'A compromised release steals credentials and spreads to Kubernetes clusters.'
 +++
 
-*Originally published on [FutureSearch](https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack). I was the first to report this to PyPI, whose response led to the package being quarantined.*
+*Originally published on [FutureSearch](https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack), cross-posted for reference. I was the first to report this to PyPI, whose response led to the package being quarantined.*
 
 **Update (12:30 UTC):** version 1.82.7 is also compromised, in addition to 1.82.8
 
