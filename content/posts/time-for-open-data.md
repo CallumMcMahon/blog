@@ -1,5 +1,5 @@
 +++
-date = '2026-03-01T20:00:53+00:00'
+date = '2026-02-28T20:00:00+00:00'
 draft = false
 title = "A new golden age of Open Data"
 subtitle = "Leveraging the vast unstructured human effort for good"
