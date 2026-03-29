@@ -59,6 +59,37 @@ This is the Claude Code conversation transcript from discovering and responding 
 .t-commit { margin: 0.75rem 0; padding: 0.5rem 0.75rem; background: #fff7ed; border-left: 3px solid #f97316; border-radius: 0 6px 6px 0; font-size: 0.8rem; color: #9a3412; }
 .t-commit code { margin-right: 0.5rem; font-weight: 600; }
 .redacted { background: #1a1a1a; color: #9e9e9e; padding: 1px 8px; border-radius: 4px; font-family: ui-monospace, monospace; font-size: 0.85em; white-space: nowrap; }
+
+/* Dark mode */
+.dark .t-sidebar a { color: #d1d5db; }
+.dark .t-sidebar a:hover { color: #f3f4f6; }
+.dark .t-item { background: #1e293b; border-left-color: #3b82f6; box-shadow: 0 1px 3px rgba(0,0,0,0.3); }
+.dark .t-item-hl { box-shadow: 0 2px 8px rgba(59,130,246,0.3); }
+.dark .t-head { background: rgba(255,255,255,0.03); }
+.dark .t-num { color: #60a5fa; }
+.dark .t-stats { color: #9ca3af; }
+.dark .t-prompt { color: #e5e7eb; }
+.dark .t-resp { background: #0f172a; border-left-color: #6b7280; }
+.dark .t-resp-inner { color: #e5e7eb; }
+.dark .t-resp-inner code { background: rgba(255,255,255,0.1); }
+.dark .t-resp-inner hr { border-top-color: #374151; }
+.dark .t-resp-inner th, .dark .t-resp-inner td { border-bottom-color: #374151; }
+.dark .t-resp-inner thead { background: #1e293b; }
+.dark .t-item details summary { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1); color: #9ca3af; }
+.dark .t-commentary { background: #422006; border-left-color: #ca8a04; color: #d1d5db; }
+.dark .t-commit { background: #431407; border-left-color: #ea580c; color: #fdba74; }
+.dark .redacted { background: #374151; color: #9ca3af; }
+.dark .tl-svg text { fill: #e5e7eb; }
+.dark .tl-svg text[fill="#6b7280"] { fill: #9ca3af; }
+.dark .tl-svg text[fill="#111827"] { fill: #e5e7eb; }
+.dark .tl-svg line { stroke: #4b5563; }
+.dark .tl-svg rect[fill="#fef2f2"] { fill: #991b1b; fill-opacity: 0.15; }
+.dark .tl-svg rect[fill="#eff6ff"] { fill: #1e40af; fill-opacity: 0.15; }
+.dark .tl-svg rect[fill="#fffbeb"] { fill: #92400e; fill-opacity: 0.15; }
+.dark .tl-svg rect[fill="#f0fdf4"] { fill: #166534; fill-opacity: 0.15; }
+@media (max-width: 768px) {
+  .dark .t-sidebar { background: #1e293b; }
+}
 </style>
 
 ## Timeline

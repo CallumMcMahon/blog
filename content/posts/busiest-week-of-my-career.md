@@ -17,7 +17,7 @@ of what I was doing on my computer as this was happening if you want to follow a
 
 Whilst I was trying to sort out this mess, I got my manager back on a call
 
-<div style="background:#f3f4f6; border-radius:8px; padding:12px 16px; font-size:0.9rem; line-height:1.8;">
+<div style="background:color-mix(in srgb, currentColor 10%, transparent); border-radius:8px; padding:12px 16px; font-size:0.9rem; line-height:1.8;">
 <strong>Callum:</strong> pretty sure <del>CC</del> Cursor just inadvertently created a fork bomb that crashed my computer<br>
 <strong>Callum:</strong> <em>&lt;tries to call my manager&gt;</em><br>
 <strong>Manager:</strong> on a call<br>
