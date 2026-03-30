@@ -7,7 +7,7 @@ subtitle = "Links to all the places I got mentioned"
 
 The week started out slow, I was ramping back up from a week of holidays.
 
-On my Tuesday morning 10am meeting with my manager, we brought back up the topic of project "Sell Callum".
+On my Tuesday morning 10am meeting with my manager, [Daniel](https://danielhnyk.cz/), we brought back up the topic of project "Sell Callum".
 The idea being that I often squirrel away solving the thorny problems slowing the team down,
 then carry on with my work without tooting my own horn. Basically I should increase my visibility.
 
@@ -27,7 +27,7 @@ Whilst I was trying to sort out this mess, I got my manager back on a call
 
 As noted in the linked transcript, partway through the call I re-activate the malware,
 giving me mere seconds to say my goodbyes to my manager before my laptop locks up again requiring
-another restart!
+another restart! Not my proudest moment, but I was taking it all in good spirits.
 
 Once the threat was contained, we got to spreading the word asap.
 I got my personal AI to write the [initial blog post](/posts/litellm-pypi-supply-chain-attack) as it already had all the details necessary to
@@ -41,19 +41,22 @@ Karpathy's tweet then gets [Quote tweeted](https://x.com/elonmusk/status/2036593
 By the end of the day I get out a [post-mortem](/posts/no-prompt-injection-required),
 which goes into more details about how I got affected so quickly.
 
-By end of wednesday, I've written up my final piece on the malware, a
+By end of Wednesday, I've written up my final piece on the malware, a
 [minute-by-minute timeline](https://runsondata.com/posts/litellm-attack-transcript/)
 showing the exact prompts I was using to get my local Claude Code session to identify the
-malware, clean it up, and write the advisory blog post.
+malware, clean it up, and write the advisory blog post. I was really happy with the framing,
+showing how AI for good was helping mitigate malware quite possibly AI-generated itself.
 
-I end up posting this thursday mid-afternoon to [Hacker News](https://news.ycombinator.com/item?id=47531967), a site I've read daily for years.
-As my very first post, it makes it straight to the #1 spot.
-With comments from a bunch of awesome people I admire.
+I end up posting this Thursday mid-afternoon to [Hacker News](https://news.ycombinator.com/item?id=47531967), a site I've read daily for years.
+As my very first post, it makes it straight to the #1 spot. I was running around the office
+telling everyone I could find about my achievement, feeling on top of the world. On top of that,
+the post received comments from a bunch of awesome people I admire such as [Simon Willison](https://news.ycombinator.com/item?id=47532515) and [William Woodruff](https://news.ycombinator.com/item?id=47532583).
 
-I clocked off thursday evening 11pm to wind down with some tech YouTube. The first video
+I clocked off Thursday evening 11pm to wind down with some tech YouTube. The very first video
 on my feed is none other than [The Primeagen](https://www.youtube.com/watch?v=mx3g7XoPVNQ) talking about the malware, mentioning me by name throughout the video.
+I couldn't escape this story even when I tried!
 
-By friday it had been picked up by sites such as [TechCrunch](https://techcrunch.com/2026/03/26/delve-did-the-security-compliance-on-litellm-an-ai-project-hit-by-malware/), [Inc.com](https://www.inc.com/chloe-aiello/malware-in-an-open-source-project-could-have-infected-thousands-the-twist-it-was-certified-by-delve/91322506),
+By Friday it had been picked up by sites such as [TechCrunch](https://techcrunch.com/2026/03/26/delve-did-the-security-compliance-on-litellm-an-ai-project-hit-by-malware/), [Inc.com](https://www.inc.com/chloe-aiello/malware-in-an-open-source-project-could-have-infected-thousands-the-twist-it-was-certified-by-delve/91322506),
 and even a [mention](https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/) on Simon Willison's blog.
 
 Not quite what we had in mind for project Sell Callum, but I'll take it.
