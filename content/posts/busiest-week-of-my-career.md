@@ -48,7 +48,7 @@ malware, clean it up, and write the advisory blog post. I was really happy with 
 showing how AI for good was helping mitigate malware quite possibly AI-generated itself.
 
 I end up posting this Thursday mid-afternoon to [Hacker News](https://news.ycombinator.com/item?id=47531967), a site I've read daily for years.
-As my very first post, it makes it straight to the #1 spot. I was running around the office
+As my very first post, it makes it straight to the [#1](https://hnrankings.info/47531967/) spot. I was running around the office
 telling everyone I could find about my achievement, feeling on top of the world. On top of that,
 the post received comments from a bunch of awesome people I admire such as [Simon Willison](https://news.ycombinator.com/item?id=47532515) and [William Woodruff](https://news.ycombinator.com/item?id=47532583).
 
