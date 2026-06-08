@@ -40,7 +40,9 @@ This programmatically enforced safeguard is much less prone to human error. Ther
 
 I firmly believe a sane default cooldown of say 7 days will be implemented as default across package managers at some point. These cooldown features are relatively new, and I get the impression that package manager maintainers are waiting for more community feedback before changing such a public-facing default. Given the [numerous](https://ringmast4r.substack.com/p/we-may-be-living-through-the-most) supply chain attacks recently, showing no sign of slowing down, it seems reckless to not proactively choose to protect yourself, or your org.
 
-Another way of thinking about it is like CI test suites. In theory we could just trust the person pushing new code to take ownership of it working as intended, not breaking tests. But even if you charitably assumed they always diligently run tests locally, there's always a chance that their local setup and CI have accidentally diverged. Trust but verify. Adding a cooldown period acts as a similar gating mechanism between package author's sign-off and use out in the world.
+Just last week vscode started [applying a 2 hour cooldown period](https://code.visualstudio.com/updates/v1_123#_delayed-extension-autoupdates) between new extension versions releasing and when the auto-update mechanism triggers.
+
+It's just another gating mechanism like a CI test suite. You're happy to wait 5 minutes for CI to finish due to the guarantees it provides, think of dependency cooldown similarly. With the ever-accelerating speed of development happening currently, [slow down](https://youtu.be/RjfbvDXpFls?si=Z0kSNPCh4mHvunNk&t=723) just a bit, it's good for you.
 
 ## Q&A
 
