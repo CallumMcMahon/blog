@@ -45,22 +45,41 @@ Another way of thinking about it is like CI test suites. In theory we could just
 ## Q&A
 
 Q: What if I actually _do_ need a bleeding edge version of a specific package crucial to my application?
+
 A: They've already thought of this, with a per-package opt-out mechanism
 
 <details><summary>Per-package opt-out demo (pydantic-ai)</summary>
-<!-- TODO: add the pydantic-ai opt-out example here -->
+
+```toml
+exclude-newer-package = { pydantic-ai = "2006-12-02T02:07:43Z" }
+# or
+exclude-newer-package = { pydantic-ai  = false }
+```
+
 </details>
 
+---
+
 Q: Isn't this just letting unaware developers act as beta testers for you?
+
 A: As mentioned above, the intended flow is that this buys security teams time to vet things before the masses update versions. _Other developers_ aren't the intended fall-guy here.
 
+---
+
 Q: Isn't this just absolving developers of the responsibility to read code they download and execute from external sources?
+
 A: You definitely should still do both. I still look at star count, number of active package contributors, and a moderate glance at code quality to know what I'm getting myself into. A 7 day wait won't save you from a vibe-coded buggy mess that takes you down for non-malicious reasons.
 
+---
+
 Q: Who are these supposed security scanning companies we're now suggesting we rely on?
+
 A: Plenty such companies exist, each doing this work already to prove to new and potential clients that they can save you from attackers. This just acts as a better mechanism for using their findings.
 
+---
+
 Q: Isn't this just patching inherently insecure dev workflows of running any code un-sandboxed on the user's local machine? What about dev containers?
+
 A: To an extent yes! However developers rightfully complain about the ergonomics of iterating on local code through many abstraction layers of containers. If you have ergonomic recommendations such as leveraging apple's new native containers, do reach out!
 
 Stay safe out there folks!
