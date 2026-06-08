@@ -1,5 +1,5 @@
 baseURL = 'https://runsondata.com/'
-languageCode = 'en-GB'
+locale = 'en-GB'
 title = 'Runs on Data'
 theme = 'paper'
 
